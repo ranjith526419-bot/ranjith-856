@@ -1,0 +1,147 @@
+import { ChallengeItem } from '../types.ts';
+
+export const CHALLENGES: ChallengeItem[] = [
+  {
+    id: 'water-management',
+    number: 1,
+    title: 'Water Management',
+    iconName: 'Droplets',
+    problem: 'Knowing when and how much to irrigate.',
+    aiSolution: 'Sensors + ML predict irrigation schedule automatically.',
+    problemPoints: [
+      'Knowing exactly when to irrigate',
+      'Figuring out how much water is needed',
+      'Risk of over-irrigation or shortage',
+    ],
+    solutionPoints: [
+      'AI combines soil-moisture sensors with weather data to predict the exact irrigation schedule',
+      'Smart systems calculate precise water quantity per crop stage',
+      'Automated AI-controlled valves release water only when needed',
+    ],
+    tag: 'Irrigation & IoT',
+  },
+  {
+    id: 'pest-attacks',
+    number: 2,
+    title: 'Pest & Insect Attacks',
+    iconName: 'Bug',
+    problem: 'Hard to detect infestation early.',
+    aiSolution: 'AI image recognition spots pests from a photo.',
+    problemPoints: [
+      'Insects damaging crops',
+      'Early identification is difficult',
+    ],
+    solutionPoints: [
+      'AI image recognition spots pests from a phone photo in seconds',
+      'Predictive ML flags high-risk pest periods using weather and historical data',
+    ],
+    tag: 'Computer Vision',
+  },
+  {
+    id: 'crop-disease-detection',
+    number: 3,
+    title: 'Crop Disease Detection',
+    iconName: 'ScanEye',
+    problem: 'Late disease detection causes crop loss.',
+    aiSolution: 'Deep-learning leaf scans diagnose disease instantly.',
+    problemPoints: [
+      'Spotting disease on leaves/crops',
+      'Late detection causes crop loss',
+    ],
+    solutionPoints: [
+      'Deep-learning leaf-scan apps diagnose disease instantly from a photo',
+      'AI early-warning alerts based on regional disease patterns',
+      'Automated severity scoring prioritizes treatment',
+    ],
+    tag: 'Deep Learning',
+  },
+  {
+    id: 'weather-uncertainty',
+    number: 4,
+    title: 'Weather Uncertainty',
+    iconName: 'CloudSun',
+    problem: 'Unexpected rain, extreme heat, or drought.',
+    aiSolution: 'AI hyperlocal forecasts and automated climate alerts.',
+    problemPoints: [
+      'Unexpected rain, heat, or drought disrupts planning',
+      'Sudden weather damages crops',
+    ],
+    solutionPoints: [
+      'AI hyperlocal forecasting predicts weather days in advance',
+      'ML-based advisories send personalized alerts',
+      'Predictive models suggest protective action before extreme weather',
+    ],
+    tag: 'Predictive Climate',
+  },
+  {
+    id: 'market-price',
+    number: 5,
+    title: 'Market Price / Selling Problem',
+    iconName: 'TrendingUp',
+    problem: 'Not getting a fair price for harvested yield.',
+    aiSolution: 'AI predicts price trends and identifies the best time to sell.',
+    problemPoints: [
+      'Not getting a fair price',
+      'Uncertainty on when/where to sell',
+    ],
+    solutionPoints: [
+      'AI price-prediction models forecast mandi trends days ahead',
+      'Recommendation engines suggest best market and timing',
+      'Demand-forecasting AI helps decide how much to sell now vs later',
+    ],
+    tag: 'Market Intelligence',
+  },
+  {
+    id: 'fertilizer-management',
+    number: 6,
+    title: 'Fertilizer Management',
+    iconName: 'FlaskConical',
+    problem: 'Choosing the right fertilizer type and quantity.',
+    aiSolution: 'AI soil analysis recommends the exact dosage.',
+    problemPoints: [
+      'Choosing the right fertilizer and quantity',
+      'Risk of over/under-use',
+    ],
+    solutionPoints: [
+      'AI soil analysis recommends exact fertilizer type and dosage',
+      'Computer vision detects nutrient deficiency from leaf color',
+      'ML adjusts recommendations as the crop grows',
+    ],
+    tag: 'Precision Soil Tech',
+  },
+  {
+    id: 'labour-shortage',
+    number: 7,
+    title: 'Labour Shortage',
+    iconName: 'Users',
+    problem: 'Hard to find skilled agricultural workers.',
+    aiSolution: 'AI matches farmers with available workers nearby.',
+    problemPoints: [
+      'Hard to find workers',
+      'Seasonal labour availability shifts',
+    ],
+    solutionPoints: [
+      'AI-driven scheduling forecasts labour demand ahead of peak season',
+      'Smart matching platforms connect farmers with nearby workers',
+      'Task-optimization models plan work order efficiently',
+    ],
+    tag: 'Smart Matching',
+  },
+  {
+    id: 'post-harvest-loss',
+    number: 8,
+    title: 'Post-Harvest Loss',
+    iconName: 'Warehouse',
+    problem: 'Storage and transport waste reducing sellable yield.',
+    aiSolution: 'AI + IoT sensors predict spoilage early.',
+    problemPoints: [
+      'Crop wasted due to storage/transport issues',
+    ],
+    solutionPoints: [
+      'AI + IoT sensors monitor storage and predict spoilage before it happens',
+      'Smart alerts warn of unsafe temperature/humidity',
+      'AI-optimized logistics shortens transit time',
+    ],
+    tag: 'Supply Chain AI',
+  },
+];

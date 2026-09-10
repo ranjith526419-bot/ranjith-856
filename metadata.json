@@ -1,0 +1,6 @@
+{
+  "name": "Farmer's Field Challenges — Solved by AI",
+  "description": "A responsive single-page agri-tech showcase highlighting key agricultural challenges and how AI technology solves them.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
